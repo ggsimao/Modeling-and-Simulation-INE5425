@@ -1,0 +1,86 @@
+
+                                      ARENA Simulation Results
+                                      LENOVO - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Unnamed Project                                             Data da execução : 6/ 9/2019
+Analista: Usuário do Windows                                          Data de revisão do modelo: 6/ 8/2019
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Statísticas foram apuradas no tempo de: 60.0 Segundos (Sunday, June 09, 2019, 00:01:00)
+Statísticas acumuladas para o tempo de: 540.0 Segundos
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+R.R Process.VATime                              --         --         --         --          0
+R.R Process.NVATime                             --         --         --         --          0
+R.R Process.WaitTime                            --         --         --         --          0
+R.R Process.TranTime                            --         --         --         --          0
+R.R Process.OtherTime                           --         --         --         --          0
+R.R Process.TotalTime                           --         --         --         --          0
+CPU Bound Process.VATime                    3.7221     .06971     1.9900     5.6600        559    
+CPU Bound Process.NVATime                   .00000     .00000     .00000     .00000        559    
+CPU Bound Process.WaitTime                  9.9426     (Corr)     .03834     19.938        559    
+CPU Bound Process.TranTime                  .00000     .00000     .00000     .00000        559    
+CPU Bound Process.OtherTime                 .44186     .00899     .20939     .70873        559    
+CPU Bound Process.TotalTime                 14.106     (Corr)     2.9885     26.222        559    
+IO Bound Process.VATime                     .18896     (Insuf)    .09000     .32000        154    
+IO Bound Process.NVATime                    .00000     (Insuf)    .00000     .00000        154    
+IO Bound Process.WaitTime                   .72256     (Insuf)    .00000     1.7019        154    
+IO Bound Process.TranTime                   .00000     (Insuf)    .00000     .00000        154    
+IO Bound Process.OtherTime                  .43054     (Insuf)    .19843     .69223        154    
+IO Bound Process.TotalTime                  1.3420     (Insuf)    .44153     2.5305        154    
+Ready.Queue.WaitingTime                     .02684     (Corr)     .00000     .05000     212731    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+R.R Process.WIP                             .00000     (Insuf)    .00000     1.0000     .00000    
+CPU Bound Process.WIP                       14.707     (Corr)     2.0000     25.000     14.000    
+IO Bound Process.WIP                        .38243     (Insuf)    .00000     3.0000     .00000    
+Core 4.NumberBusy                           .99173     (Insuf)    .00000     1.0000     1.0000    
+Core 4.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Core 4.Utilization                          .99173     (Insuf)    .00000     1.0000     1.0000    
+Core 1.NumberBusy                           .99766     (Insuf)    .00000     1.0000     1.0000    
+Core 1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Core 1.Utilization                          .99766     (Insuf)    .00000     1.0000     1.0000    
+Core 2.NumberBusy                           .99635     (Insuf)    .00000     1.0000     1.0000    
+Core 2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Core 2.Utilization                          .99635     (Insuf)    .00000     1.0000     1.0000    
+Core 3.NumberBusy                           .99622     (Insuf)    .00000     1.0000     1.0000    
+Core 3.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Core 3.Utilization                          .99622     (Insuf)    .00000     1.0000     1.0000    
+Ready.Queue.NumberInQueue                   10.575     (Corr)     .00000     20.000     9.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+Average Wait Time Ready Queue RR            .02684    
+R.R Process.NumberIn                        718.00    
+R.R Process.NumberOut                       718.00    
+CPU Bound Process.NumberIn                  565.00    
+CPU Bound Process.NumberOut                 559.00    
+IO Bound Process.NumberIn                   153.00    
+IO Bound Process.NumberOut                  154.00    
+Core 4.NumberSeized                         53199.    
+Core 4.ScheduledUtilization                 .99173    
+Core 1.NumberSeized                         53182.    
+Core 1.ScheduledUtilization                 .99766    
+Core 2.NumberSeized                         53146.    
+Core 2.ScheduledUtilization                 .99635    
+Core 3.NumberSeized                         53204.    
+Core 3.ScheduledUtilization                 .99622    
+System.NumberOut                            713.00    
+
+
+Tempo executando a simulação: 0.28 minutos.
+Simulação completada.

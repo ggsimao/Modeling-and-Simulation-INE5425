@@ -1,0 +1,39 @@
+[RESOURCES]
+Core 4
+Core 1
+Core 2
+Core 3
+[VARIABLES]
+Check is process was preempted.NumberOut True
+Check if process in Ready Queue has better priority than worst running process.NumberOut True
+Check if process in Ready Queue has better priority than worst running process.NumberOut False
+Check if number of cycle is zero.NumberOut False
+Worst priority Running
+Check if priority is less than zero for statistics.NumberOut False
+Check if priority is less than zero for statistics.NumberOut True
+Best priority in Ready Queue
+Check if number of cycle is zero.NumberOut True
+Set CPU Bound process.NumberIn
+Set CPU Bound process.NumberOut
+CPU Bound chance
+Decide process type.NumberOut False
+Decide process type.NumberOut True
+Check is process was preempted.NumberOut False
+quantum
+Process ends.NumberOut
+Dispose Timer.NumberOut
+CREATE PROCESS.NumberOut
+Ready queue is empty.NumberOut
+Worst priority Running equals Best priority in Ready Queue.NumberOut True
+Worst priority Running equals Best priority in Ready Queue.NumberOut False
+Check if execution time is over.NumberOut True
+Check if execution time is over.NumberOut False
+is CPU bound process?.NumberOut False
+Check if priority is in range.NumberOut False
+Check if priority is in range.NumberOut True
+Check if all cores are alocated.NumberOut True
+Check if all cores are alocated.NumberOut False
+_TIMER_.NumberOut
+is CPU bound process?.NumberOut True
+Check if Ready queue is empty.NumberOut False
+Check if Ready queue is empty.NumberOut True

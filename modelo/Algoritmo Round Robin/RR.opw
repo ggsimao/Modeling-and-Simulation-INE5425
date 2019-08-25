@@ -1,0 +1,28 @@
+[RESOURCES]
+Core 4
+Core 1
+Core 2
+Core 3
+[VARIABLES]
+Check if process was preempted.NumberOut True
+PROCESSO TERMINA.NumberOut
+CPU Bound Chance
+Decide process type.NumberOut False
+Decide process type.NumberOut True
+Check if process was preempted.NumberOut False
+CPU Resource.NumberOut
+CPU Resource.NumberIn
+quantum
+Check process type.NumberOut True
+Check process type.NumberOut False
+Check if cycles are over.NumberOut False
+CREATE PROCESS.NumberOut
+Check if cycles are over.NumberOut True
+Check if execution time is over.NumberOut True
+Check if execution time is less than the quantum.NumberOut False
+Check if execution time is over.NumberOut False
+Check if execution time is less than the quantum.NumberOut True
+Check if theres need to frelease core.NumberOut False
+Check if theres need to frelease core.NumberOut True
+ALGORITMO DO ROUND ROBIN.NumberIn
+ALGORITMO DO ROUND ROBIN.NumberOut

@@ -1,0 +1,110 @@
+
+                                      ARENA Simulation Results
+                                      LENOVO - License: STUDENT
+
+                                  Sumário para Replicação 1 de 1
+
+Projeto: Priority Scheduler                                          Data da execução : 6/ 9/2019
+Analista: Usuário do Windows                                          Data de revisão do modelo: 6/ 8/2019
+
+Replicação terminada no tempo de      : 600.0 Segundos 
+Statísticas foram apuradas no tempo de: 60.0 Segundos (Sunday, June 09, 2019, 00:01:00)
+Statísticas acumuladas para o tempo de: 540.0 Segundos
+Unidade de Tempo Base: Segundos
+
+                                           VARIÁVEIS DE REGISTRO
+
+Identificador                                  Média   Meia Largura  Mínimo    Máximo   Observações
+___________________________________________________________________________________________________
+
+Waiting time in ready queue of process wit  .08782     .02072     .00000     65.284      51279    
+Waiting time in ready queue of process wit  .00246     7.5630E-04 .00000     .90800      27618    
+PRIO Process.VATime                             --         --         --         --          0
+PRIO Process.NVATime                            --         --         --         --          0
+PRIO Process.WaitTime                           --         --         --         --          0
+PRIO Process.TranTime                           --         --         --         --          0
+PRIO Process.OtherTime                          --         --         --         --          0
+PRIO Process.TotalTime                          --         --         --         --          0
+Entity.VATime                                   --         --         --         --          0
+Entity.NVATime                                  --         --         --         --          0
+Entity.WaitTime                                 --         --         --         --          0
+Entity.TranTime                                 --         --         --         --          0
+Entity.OtherTime                                --         --         --         --          0
+Entity.TotalTime                                --         --         --         --          0
+CPU Bound Process.VATime                    .00000     .00000     .00000     .00000        557    
+CPU Bound Process.NVATime                   .00000     .00000     .00000     .00000        557    
+CPU Bound Process.WaitTime                  9.9024     2.9005     2.0101     230.53        557    
+CPU Bound Process.TranTime                  3.3074E-05 5.7720E-06 1.1250E-06 2.0112E-04    557    
+CPU Bound Process.OtherTime                 .39399     .00743     .16572     .68802        557    
+CPU Bound Process.TotalTime                 10.296     2.8991     2.2394     230.98        557    
+timer.VATime                                    --         --         --         --          0
+timer.NVATime                                   --         --         --         --          0
+timer.WaitTime                                  --         --         --         --          0
+timer.TranTime                                  --         --         --         --          0
+timer.OtherTime                                 --         --         --         --          0
+timer.TotalTime                                 --         --         --         --          0
+IO Bound Process.VATime                     .00000     (Insuf)    .00000     .00000        143    
+IO Bound Process.NVATime                    .00000     (Insuf)    .00000     .00000        143    
+IO Bound Process.WaitTime                   .29388     (Insuf)    .15095     2.5129        143    
+IO Bound Process.TranTime                   2.6355E-06 (Insuf)    1.1250E-06 1.3875E-05    143    
+IO Bound Process.OtherTime                  .40205     (Insuf)    .17408     .67770        143    
+IO Bound Process.TotalTime                  .69594     (Insuf)    .32760     2.8883        143    
+Ready.Queue.WaitingTime                     .05794     .01423     .00000     65.284      78898    
+Cores.Queue.WaitingTime                     .02699     .00459     9.9987E-04 .79100      78898    
+
+                                     VARIÁVEIS DISCRETAS
+
+Identificador                                 Média   Meia Largura  Mínimo    Máximo   Valor Final
+___________________________________________________________________________________________________
+
+PRIO Process.WIP                            .00000     (Insuf)    .00000     1.0000     .00000    
+Entity.WIP                                  .00000     (Insuf)    .00000     1.0000     .00000    
+CPU Bound Process.WIP                       15.505     (Corr)     1.0000     34.000     30.000    
+timer.WIP                                   .00000     (Insuf)    .00000     1.0000     .00000    
+IO Bound Process.WIP                        .18429     (Insuf)    .00000     2.0000     .00000    
+Core 4.NumberBusy                           .97225     (Insuf)    .00000     1.0000     1.0000    
+Core 4.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Core 4.Utilization                          .97225     (Insuf)    .00000     1.0000     1.0000    
+Core 1.NumberBusy                           .99189     (Insuf)    .00000     1.0000     1.0000    
+Core 1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Core 1.Utilization                          .99189     (Insuf)    .00000     1.0000     1.0000    
+Core 2.NumberBusy                           .99088     (Insuf)    .00000     1.0000     1.0000    
+Core 2.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Core 2.Utilization                          .99088     (Insuf)    .00000     1.0000     1.0000    
+Core 3.NumberBusy                           .98828     (Insuf)    .00000     1.0000     1.0000    
+Core 3.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Core 3.Utilization                          .98828     (Insuf)    .00000     1.0000     1.0000    
+Ready.Queue.NumberInQueue                   11.231     (Corr)     .00000     31.000     25.000    
+Cores.Queue.NumberInQueue                   3.9432     (Corr)     .00000     4.0000     3.0000    
+
+                                             RESULTADOS
+
+Identificador                                   Valor
+_____________________________________________________________
+
+minus ten to zero PRIO                      .00246    
+Average time in Ready Queue PRIORI          .05794    
+one to ten PRIO                             .08782    
+PRIO Process.NumberIn                       721.00    
+PRIO Process.NumberOut                      721.00    
+Entity.NumberIn                             721.00    
+Entity.NumberOut                            721.00    
+CPU Bound Process.NumberIn                  578.00    
+CPU Bound Process.NumberOut                 557.00    
+timer.NumberIn                              5.4000E+05
+timer.NumberOut                             5.4000E+05
+IO Bound Process.NumberIn                   143.00    
+IO Bound Process.NumberOut                  143.00    
+Core 4.NumberSeized                         19646.    
+Core 4.ScheduledUtilization                 .97225    
+Core 1.NumberSeized                         19750.    
+Core 1.ScheduledUtilization                 .99189    
+Core 2.NumberSeized                         19679.    
+Core 2.ScheduledUtilization                 .99088    
+Core 3.NumberSeized                         19823.    
+Core 3.ScheduledUtilization                 .98828    
+System.NumberOut                            700.00    
+
+
+Tempo executando a simulação: 0.30 minutos.
+Simulação completada.
