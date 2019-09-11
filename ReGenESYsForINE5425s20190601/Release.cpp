@@ -85,9 +85,9 @@ Resource* Release::getResource() const {
 void Release::_execute(Entity* entity) {
     Resource* resource = nullptr;
     if (this->_resourceType == Resource::ResourceType::SET) {
-	/* TODO +: not implemented yet */
+	    /* TODO +: not implemented yet */
     } else {
-	resource = this->_resource;
+	    resource = this->_resource;
     }
     unsigned int quantity = _model->parseExpression(this->_quantity);
     assert(_resource->getNumberBusy() >= quantity);
@@ -103,16 +103,16 @@ void Release::_initBetweenReplications() {
 bool Release::_loadInstance(std::map<std::string, std::string>* fields) {
     bool res = ModelComponent::_loadInstance(fields);
     if (res) {
-	this->_priority = std::stoi((*(fields->find("priority"))).second);
-	this->_quantity = ((*(fields->find("quantity"))).second);
-	this->_resourceType = static_cast<Resource::ResourceType> (std::stoi((*(fields->find("resourceType"))).second));
-	this->_rule = static_cast<Resource::ResourceRule> (std::stoi((*(fields->find("rule"))).second));
-	this->_saveAttribute = ((*(fields->find("saveAttribute"))).second);
-	//Util::identitifcation resourceId = std::stoi((*(fields->find("resourceId"))).second);
-	//Resource* res = dynamic_cast<Resource*> (_model->getElementManager()->getElement(Util::TypeOf<Resource>(), resourceId));
-	std::string resourceName = ((*(fields->find("resourceName"))).second);
-	Resource* res = dynamic_cast<Resource*> (_model->getElementManager()->getElement(Util::TypeOf<Resource>(), resourceName));
-	this->_resource = res;
+        this->_priority = std::stoi((*(fields->find("priority"))).second);
+        this->_quantity = ((*(fields->find("quantity"))).second);
+        this->_resourceType = static_cast<Resource::ResourceType> (std::stoi((*(fields->find("resourceType"))).second));
+        this->_rule = static_cast<Resource::ResourceRule> (std::stoi((*(fields->find("rule"))).second));
+        this->_saveAttribute = ((*(fields->find("saveAttribute"))).second);
+        //Util::identitifcation resourceId = std::stoi((*(fields->find("resourceId"))).second);
+        //Resource* res = dynamic_cast<Resource*> (_model->getElementManager()->getElement(Util::TypeOf<Resource>(), resourceId));
+        std::string resourceName = ((*(fields->find("resourceName"))).second);
+        Resource* res = dynamic_cast<Resource*> (_model->getElementManager()->getElement(Util::TypeOf<Resource>(), resourceName));
+        this->_resource = res;
     }
     return res;
 }
@@ -141,9 +141,9 @@ bool Release::_check(std::string* errorMessage) {
 void Release::setResourceName(std::string resourceName) throw () {
     ModelElement* resource = _model->getElementManager()->getElement(Util::TypeOf<Resource>(), resourceName);
     if (resource != nullptr) {
-	this->_resource = dynamic_cast<Resource*> (resource);
+	    this->_resource = dynamic_cast<Resource*> (resource);
     } else {
-	throw std::invalid_argument("Resource does not exist");
+	    throw std::invalid_argument("Resource does not exist");
     }
 }
 
@@ -160,7 +160,7 @@ PluginInformation* Release::GetPluginInformation() {
 ModelComponent* Release::LoadInstance(Model* model, std::map<std::string, std::string>* fields) {
     Release* newComponent = new Release(model);
     try {
-	newComponent->_loadInstance(fields);
+	    newComponent->_loadInstance(fields);
     } catch (const std::exception& e) {
 
     }

@@ -13,10 +13,10 @@
 
 #include "Search.h"
 
-Search::Search() {
+Search::Search(Model* model) : ModelComponent(model, Util::TypeOf<Search>()) {
 }
 
-Search::Search(const Search& orig) {
+Search::Search(const Search& orig) : ModelComponent(orig) {
 }
 
 Search::~Search() {

@@ -59,11 +59,10 @@ void Resource::seize(unsigned int quantity, double tnow) {
 }
 
 void Resource::release(unsigned int quantity, double tnow) {
-    if (_numberBusy >= quantity) {
-	_numberBusy -= quantity;
-    } else {
-	_numberBusy = 0;
-    }
+    if (_numberBusy >= quantity)
+	    _numberBusy -= quantity;
+    else
+	    _numberBusy = 0;
     _numReleases->incCountValue(quantity);
     double timeSeized = tnow - _lastTimeSeized;
     // Collect statistics about time seized
